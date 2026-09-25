@@ -1,0 +1,116 @@
+# ============================
+# Python
+# ============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ============================
+# Virtual Environments
+# ============================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# ============================
+# PyTorch / ML Specifics
+# ============================
+# Model weights & checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pb
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.safetensors
+
+# TensorBoard logs
+runs/
+logs/
+events.out.tfevents.*
+lightning_logs/
+
+# Datasets & data folders
+data/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.npy
+*.npz
+!requirements.csv
+
+# HuggingFace cache
+.cache/
+huggingface/
+
+# ============================
+# Jupyter Notebooks
+# ============================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================
+# Testing / Coverage
+# ============================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+
+# ============================
+# IDE / Editors
+# ============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.spyderproject
+.spyproject
+.ropeproject
+
+# ============================
+# OS Files
+# ============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================
+# Environment / Secrets
+# ============================
+.env
+.env.*
+!.env.example
+*.key
+secrets.json
